@@ -19,6 +19,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rcov"
   s.add_development_dependency "rspec", "< 2.0" # We're not ready to upgrade to rspec 2
  
-  s.files        = Dir['lib/*.rb'] + Dir['lib/**/*.rb']
+  s.files        = Dir['lib/**/*.rb']
   s.require_path = 'lib'
 end
